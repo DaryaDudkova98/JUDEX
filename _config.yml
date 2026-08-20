@@ -1,0 +1,22 @@
+# _config.yml
+# GitHub Pages configuration for SPA (Single Page Application)
+
+# Если вы используете Jekyll, отключаем его, чтобы не мешал
+markdown: kramdown
+highlighter: rouge
+
+# Отключаем обработку GitHub Pages для сохранения путей
+include:
+  - .nojekyll
+
+# Это нужно для правильной работы SPA с BrowserRouter
+# Перенаправляем все запросы на index.html
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Для правильной работы с путями React Router
+baseurl: "/JUDEX"
+url: "https://DaryaDudkova98.github.io"

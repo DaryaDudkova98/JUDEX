@@ -1,6 +1,7 @@
 {
   "name": "judex",
   "version": "1.0.0",
+  "homepage": "https://DaryaDudkova98.github.io/JUDEX",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^2.17.0",
